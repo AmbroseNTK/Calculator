@@ -4,10 +4,6 @@ import kiet.nguyentuan.math.Operand;
 import kiet.nguyentuan.math.Operator;
 import kiet.nguyentuan.math.OperatorType;
 
-/**
- * Created by Bich Tram on 6/24/2017.
- */
-
 public class Pow extends Operator {
 
     @Override
