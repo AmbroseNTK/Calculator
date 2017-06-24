@@ -27,6 +27,6 @@ public class Pow extends Operator {
 
     @Override
     public String getCharacter() {
-        return "+";
+        return "^";
     }
 }
