@@ -36,13 +36,12 @@
         android:id="@+id/tvResult"
         android:layout_width="360dp"
         android:layout_height="304dp"
-        android:layout_marginTop="50dp"
-        android:text="TextView"
-        android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/btSolve"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.6" />
+        app:layout_constraintTop_toBottomOf="@+id/btSolve" />
 </android.support.constraint.ConstraintLayout>
