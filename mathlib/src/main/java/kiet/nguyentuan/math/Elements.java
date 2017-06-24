@@ -17,6 +17,8 @@ public abstract class Elements {
 			return new Times();
 		else if(value.equals("/"))
 			return new Obelus();
+		else if(value.equals("^"))
+			return new Pow();
 		else if(value.equals("("))
 			return new LParenthesis();
 		else if(value.equals(")"))
